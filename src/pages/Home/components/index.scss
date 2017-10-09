@@ -1,0 +1,135 @@
+.home-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: #fff;
+    a{
+      display: block;
+      img{
+        display: block;
+      }
+    }
+}
+
+
+.swiper-container {}
+
+.advpos {
+    width: 100%;
+    margin-top: -1px;
+    a {
+        display: block;
+        width: 100%;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.navig-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    .imgCon {
+        float: left;
+        padding: 0;
+        margin: 0;
+        img {
+            width: 100%;
+            border: 0;
+            vertical-align: middle;
+        }
+    }
+}
+
+.list-show {
+    .magezin_img {
+        width: 100%;
+        overflow: hidden;
+        background: #fff;
+        border: none;
+        margin-top: 0;
+        a{
+          display: block;
+          img {
+            width: 100%;
+            display: block;
+          }
+        }
+    }
+    .listDetai {
+        background: #fff;
+        padding: 0px;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.slide-container {
+  background: #fff;
+    .smallBanner {
+        overflow: scroll;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 18px;
+        .imgCon {
+            height: 13.6rem;
+            min-width: 100%;
+            .item {
+                display: inline-block;
+                float: left;
+                margin-left: 0.935rem;
+                text-decoration: none;
+                .dd {
+                    width: 100%;
+                    overflow: hidden;
+                    display: inline-block;
+                    height: 9.3rem;
+                    position: relative;
+                    img {
+                        width: 100%;
+                    }
+                }
+                p {
+                    display: block;
+                    width: 100%;
+                    height: 3rem;
+                    color: #000;
+                    text-align: center;
+                    margin-top: 0.56rem;
+                    font-size: 1.1rem;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .price {
+                    margin-left: 0px;
+                    margin-top: 0rem;
+                    text-align: center;
+                    span {
+                        color: #1c1b20;
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.recomd-container {
+    width: 100%;
+    background: #fff;
+    margin: 0;
+}
+.market_sign_small{
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    bottom: 0;
+}
+.adv-bottom {
+    img {
+        width: 100%;
+    }
+}

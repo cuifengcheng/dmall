@@ -1,0 +1,26 @@
+.layer {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 9999;
+}
+
+.layer-enter {
+    opacity: 0.1;
+}
+
+.layer-enter.layer-enter-active {
+    opacity: 0.5;
+    transition: opacity 0.3s cubic-bezier(.17,.93,.37,.99);
+}
+
+.layer-leave {
+    opacity: 0.5;
+}
+
+.layer-leave.layer-leave-active {
+    opacity: 0.1;
+    transition: opacity 0.3s cubic-bezier(.17,.93,.37,.99);
+}

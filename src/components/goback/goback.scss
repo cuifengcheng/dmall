@@ -1,0 +1,52 @@
+.a_goback {
+    position: relative;
+    z-index: 2000;
+    display: inline-block;
+    height: 100%;
+    width: 16%;
+    overflow: hidden;
+    float: left;
+    img {
+        vertical-align: middle;
+        width: 100%
+    }
+}
+
+.listtop {
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 3.7%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    background: #fff;
+    transform: translate(0);
+    z-index: 9999;
+    .title {
+        display: inline-block;
+        width: 68%;
+        height: 100%;
+        line-height: 55px;
+        text-align: center;
+        float: left;
+        font-size: 1.6rem;
+        color: #000;
+        font-weight: bold;
+        span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: block;
+        }
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .listtop {
+        height: 45px;
+        line-height: 45px;
+    }
+}

@@ -1,0 +1,104 @@
+.search-bar {
+    .row {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .topBar {
+        height: 45px;
+        padding: 8px 8px;
+        background: #1c1b20;
+    }
+    .logo {
+        padding: 0 10px;
+        line-height: 35px;
+        display: inline-block;
+        float: left;
+        width: 16.66666667%;
+        height: 100%;
+        i {
+            margin-top: -8px;
+            display: inline-block;
+            width: 100%;
+            vertical-align: middle;
+            img {
+                width: 30px;
+                vertical-align: middle;
+            }
+        }
+    }
+    @media only screen and (max-width:331px) {
+        .logo {
+            padding: 0 5px;
+        }
+    }
+    .form-wraper {
+        width: 83.33333333%;
+        float: right;
+    }
+}
+
+.search {
+    display: inline-block;
+    height: 30px;
+    padding: 0;
+    width: 100%;
+    .input-group {
+        width: 100%;
+        position: relative;
+        display: table;
+        border-collapse: separate;
+        .glyphicon {
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .glyphicon-search:before {
+            content: "\e003";
+        }
+        i {
+            position: absolute;
+            left: 38%;
+            top: 50%;
+            z-index: 30;
+            color: #cecece;
+            font-size: 16px;
+            margin-top: -9px;
+        }
+        input::-webkit-input-placeholder {
+            color: #aeaeae;
+            font-size: 1.4rem;
+            height: 30px;
+            line-height: 30px;
+        }
+        input:-moz-placeholder {
+            color: #aeaeae;
+            font-size: 1.4rem;
+            height: 30px;
+            line-height: 30px;
+        }
+        input:-ms-input-placeholder {
+            color: #aeaeae;
+            font-size: 1.4rem;
+            height: 30px;
+            line-height: 30px;
+        }
+        .form-control {
+            height: 30px;
+            line-height: 30px;
+            width: 100%;
+            background: #f4f3f3;
+            border: none;
+            box-shadow: none;
+            -webkit-appearance: none;
+            padding: 5px 12px;
+            vertical-align: middle;
+            -webkit-appearance: none;
+            border-radius: 0;
+        }
+    }
+}

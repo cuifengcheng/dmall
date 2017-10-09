@@ -1,0 +1,442 @@
+
+  /*
+* @Author: 84586_000
+* @Date:   2016-11-03 11:39:10
+* @Last Modified by:   84586_000
+* @Last Modified time: 2016-11-04 13:39:32
+*/
+  .loadingBox {
+    position: fixed;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    background: rgba(40, 40, 40, .75);
+    text-align: center;
+    border-radius: 5px;
+    color: #fff
+  }
+
+  .loadingDiv {
+    position: absolute;
+    width: 0;
+    z-index: 2000000000;
+    left: 50%;
+    top: 38%
+  }
+
+  .dasicLoading {
+    position: absolute;
+    top: -1px;
+    opacity: .25
+  }
+  .scrollLoading{
+    width:100%;
+    height:40px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background:#f2f2f2;
+  }
+  .scrollLoading span{
+    color:#000;
+    position: absolute;
+    left:50%;
+    top:10px;
+  }
+  .scrollLoadingDiv{
+    position: absolute;
+    z-index: 20000;
+    width:30px;
+    height:30px;
+    left:45%;
+    top:20px;
+  }
+  .dasicLoading:before {
+    content: " ";
+    position: absolute;
+    width: 8.14px;
+    height: 3.08px;
+    background: #d1d1d5;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .0980392);
+    border-radius: 1px;
+    transform-origin: left 50% 0
+  }
+
+  .dasicLoading_0 {
+    animation: opacityanimate0 1.25s linear infinite;
+    -webkit-animation: opacityanimate0 1.25s linear infinite;
+    -moz-animation: opacityanimate0 1.25s linear infinite;
+  }
+
+  .dasicLoading_0:before {
+    transform: rotate(0deg) translate(7.92px);
+    -webkit-transform: rotate(0deg) translate(7.92px);
+    -moz-transform: rotate(0deg) translate(7.92px);
+  }
+
+  .dasicLoading_1 {
+    animation: opacityanimate1 1.25s linear infinite;
+    -webkit-animation: opacityanimate1 1.25s linear infinite;
+    -moz-animation: opacityanimate1 1.25s linear infinite;
+  }
+
+  .dasicLoading_1:before {
+    transform: rotate(30deg) translate(7.92px);
+    -webkit-transform: rotate(30deg) translate(7.92px);
+  }
+
+  .dasicLoading_2 {
+    animation: opacityanimate2 1.25s linear infinite;
+    -webkit-animation: opacityanimate2 1.25s linear infinite;
+    -moz-animation: opacityanimate2 1.25s linear infinite;
+  }
+
+  .dasicLoading_2:before {
+    transform: rotate(60deg) translate(7.92px);
+    -webkit-transform: rotate(60deg) translate(7.92px);
+  }
+
+  .dasicLoading_3 {
+    animation: opacityaminate3 1.25s linear infinite;
+    -webkit-animation: opacityaminate3 1.25s linear infinite;
+    -moz-animation: opacityaminate3 1.25s linear infinite;
+  }
+
+  .dasicLoading_3:before {
+    transform: rotate(90deg) translate(7.92px);
+    -webkit-transform: rotate(90deg) translate(7.92px);
+  }
+
+  .dasicLoading_4 {
+    animation: opacityanimate4 1.25s linear infinite;
+    -webkit-animation: opacityaminate4 1.25s linear infinite;
+    -moz-animation: opacityaminate4 1.25s linear infinite;
+  }
+
+  .dasicLoading_4:before {
+    transform: rotate(120deg) translate(7.92px);
+    -webkit-transform: rotate(120deg) translate(7.92px);
+  }
+
+  .dasicLoading_5 {
+    animation: opacityanimate5 1.25s linear infinite;
+    -webkit-animation: opacityaminate5 1.25s linear infinite;
+    -moz-animation: opacityaminate5 1.25s linear infinite;
+  }
+
+  .dasicLoading_5:before {
+    transform: rotate(150deg) translate(7.92px);
+    -webkit-transform: rotate(150deg) translate(7.92px);
+  }
+
+  .dasicLoading_6 {
+    animation: opacityanimate6 1.25s linear infinite;
+    -webkit-animation: opacityanimate6 1.25s linear infinite;
+    -moz-animation: opacityanimate6 1.25s linear infinite;
+  }
+
+  .dasicLoading_6:before {
+    transform: rotate(180deg) translate(7.92px);
+    -webkit-transform: rotate(180deg) translate(7.92px);
+  }
+
+  .dasicLoading_7 {
+    animation: opacityanimate7 1.25s linear infinite;
+    -webkit-animation: opacityanimate7 1.25s linear infinite;
+    -moz-animation: opacityanimate7 1.25s linear infinite;
+  }
+
+  .dasicLoading_7:before {
+    transform: rotate(210deg) translate(7.92px);
+    -webkit-transform: rotate(210deg) translate(7.92px);
+  }
+
+  .dasicLoading_8 {
+    animation: opacityanimate8 1.25s linear infinite;
+    -webkit-animation: opacityanimate8 1.25s linear infinite;
+    -moz-animation: opacityanimate8 1.25s linear infinite;
+  }
+
+  .dasicLoading_8:before {
+    transform: rotate(240deg) translate(7.92px);
+    -webkit-transform: rotate(240deg) translate(7.92px);
+  }
+
+  .dasicLoading_9 {
+    animation: opacityanimate9 1.25s linear infinite;
+    -webkit-animation: opacityanimate9 1.25s linear infinite;
+    -moz-animation: opacityanimate9 1.25s linear infinite;
+  }
+
+  .dasicLoading_9:before {
+    transform: rotate(270deg) translate(7.92px);
+    -webkit-transform: rotate(270deg) translate(7.92px);
+  }
+
+  .dasicLoading_10 {
+    animation: opacityanimate10 1.25s linear infinite;
+    -webkit-animation: opacityanimate10 1.25s linear infinite;
+    -moz-animation: opacityanimate10 1.25s linear infinite;
+  }
+
+  .dasicLoading_10:before {
+    transform: rotate(300deg) translate(7.92px);
+    -webkit-transform: rotate(300deg) translate(7.92px);
+  }
+
+  .dasicLoading_11 {
+    animation: opacityanimate11 1.25s linear infinite;
+    -webkit-animation: opacityanimate11 1.25s linear infinite;
+    -moz-animation: opacityanimate11 1.25s linear infinite;
+  }
+
+  .dasicLoading_11:before {
+    transform: rotate(330deg) translate(7.92px);
+    -webkit-transform: rotate(330deg) translate(7.92px);
+  }
+
+  .loadingContent {
+    margin: 0 0 15px;
+    margin-top: 64%;
+    font-size: 14px;
+  }
+
+  @-webkit-keyframes opacityanimate0 {
+    0% {
+      opacity: .25;
+    }
+    0.01% {
+      opacity: .25;
+    }
+    0.02% {
+      opacity: 1;
+    }
+    60.01% {
+      opacity: .25;
+    }
+    to {
+      opacity: .25;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate1 {
+    0% {
+      opacity: .25;
+    }
+    8.34333% {
+      opacity: .25;
+    }
+    8.35333% {
+      opacity: 1;
+    }
+    68.3433% {
+      opacity: .25;
+    }
+    to {
+      opacity: .25;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate2 {
+    0% {
+      opacity: .25;
+    }
+    16.6767% {
+      opacity: .25;
+    }
+    16.6867% {
+      opacity: 1;
+    }
+    76.6767% {
+      opacity: .25;
+    }
+    to {
+      opacity: .25;
+    }
+  }
+
+  @-webkit-keyframes opacityaminate3 {
+    0% {
+      opacity: .25;
+    }
+    25.01% {
+      opacity: .25;
+    }
+    25.02% {
+      opacity: 1;
+    }
+    85.01% {
+      opacity: .25;
+    }
+    to {
+      opacity: .25;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate4 {
+    0% {
+      opacity: .25;
+    }
+    33.3433% {
+      opacity: .25;
+    }
+    33.3533% {
+      opacity: 1;
+    }
+    93.3433% {
+      opacity: .25;
+    }
+    to {
+      opacity: .25;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate5 {
+    0% {
+      opacity: .270958333333333;
+    }
+    41.6767% {
+      opacity: .25;
+    }
+    41.6867% {
+      opacity: 1;
+    }
+    1.67667% {
+      opacity: .25;
+    }
+    to {
+      opacity: .270958333333333;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate6 {
+    0% {
+      opacity: .375125;
+    }
+    50.01% {
+      opacity: .25;
+    }
+    50.02% {
+      opacity: 1;
+    }
+    10.01% {
+      opacity: .25;
+    }
+    to {
+      opacity: .375125;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate7 {
+    0% {
+      opacity: .479291666666667;
+    }
+    58.3433% {
+      opacity: .25;
+    }
+    58.3533% {
+      opacity: 1;
+    }
+    18.3433% {
+      opacity: .25;
+    }
+    to {
+      opacity: .479291666666667;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate8 {
+    0% {
+      opacity: .583458333333333;
+    }
+    66.6767% {
+      opacity: .25;
+    }
+    66.6867% {
+      opacity: 1;
+    }
+    26.6767% {
+      opacity: .25;
+    }
+    to {
+      opacity: .583458333333333;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate9 {
+    0% {
+      opacity: .687625;
+    }
+    75.01% {
+      opacity: .25;
+    }
+    75.02% {
+      opacity: 1;
+    }
+    35.01% {
+      opacity: .25;
+    }
+    to {
+      opacity: .687625;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate10 {
+    0% {
+      opacity: .791791666666667;
+    }
+    83.3433% {
+      opacity: .25;
+    }
+    83.3533% {
+      opacity: 1;
+    }
+    43.3433% {
+      opacity: .25;
+    }
+    to {
+      opacity: .791791666666667;
+    }
+  }
+
+  @-webkit-keyframes opacityanimate11 {
+    0% {
+      opacity: .895958333333333;
+    }
+    91.6767% {
+      opacity: .25;
+    }
+    91.6867% {
+      opacity: 1;
+    }
+    51.6767% {
+      opacity: .25;
+    }
+    to {
+      opacity: .895958333333333;
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
